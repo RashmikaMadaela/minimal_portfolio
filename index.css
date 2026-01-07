@@ -2,12 +2,40 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 .container {
     width: 570px;
     margin: 0 auto;
 }
+
+/* typography */
+
+h1, h2 {
+    font-weight: 300;
+}
+
+h1{
+   font-size: 3.9rem; 
+}
+
+h2{
+   font-size: 2.6rem; 
+}
+
+h3{
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.small-text{
+    font-size: 1rem;
+}
+
+/* image styling */
 
 .img-container {
     margin: 0 auto;
