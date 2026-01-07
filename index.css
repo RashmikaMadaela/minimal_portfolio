@@ -26,6 +26,10 @@ h1{
 h2{
     margin-top: 0;
     font-size: 2.6rem; 
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 h3{
@@ -47,7 +51,16 @@ p{
 span {
     display: block;
     font-weight: 900;
+    color: #99D930;
 }
+
+.name, time{
+    display: inline;
+    color: #99D930;
+    font-weight: 400;
+}
+
+
 
 h1 span {
     font-size: 5rem;
